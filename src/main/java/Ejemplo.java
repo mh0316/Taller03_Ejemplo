@@ -5,6 +5,11 @@ public class Ejemplo {
         System.out.println("Clase de ejemplo");
         System.out.print("Ingrese un número: ");
         int numero = ingresar();
+        mostrarResultado(numero);
+    }
+
+    private static void mostrarResultado(int numero){
+        System.out.println("El resultado es: "+numero);
     }
 
     public static int ingresar() {
